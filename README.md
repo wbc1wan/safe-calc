@@ -60,6 +60,7 @@ safe-calc/
 ├─ README.md
 ├─ requirements.txt
 ├─ safe_calculator.py
+├─ Jenkinsfile # for user to run in Jenkin
 ├─ tests/
 │   └─ test_safe_calculator.py
 └─ .github/
