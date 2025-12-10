@@ -1,0 +1,17 @@
+[run]
+branch = True
+source = .
+omit =
+    */tests/*
+    */__init__.py
+    setup.py
+
+[report]
+# Minimum coverage percentage; CI can fail if below this
+fail_under = 80
+show_missing = True
+precision = 2
+
+[html]
+directory = coverage_html_report
+title = "SC Calculator Coverage Report"
